@@ -1098,7 +1098,7 @@ GameObject:
   - component: {fileID: 887916123}
   - component: {fileID: 887916122}
   m_Layer: 0
-  m_Name: VContainer
+  m_Name: GameLifetimeScope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 1245312437}
   - component: {fileID: 1245312436}
   m_Layer: 0
-  m_Name: HPView
+  m_Name: HealthPointView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

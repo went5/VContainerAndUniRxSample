@@ -1,10 +1,7 @@
 {
-    "name": "Model",
+    "name": "WentUtilAPI",
     "rootNamespace": "",
-    "references": [
-        "UniRx",
-        "WentUtilAPI"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

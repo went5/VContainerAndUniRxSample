@@ -12,7 +12,7 @@ namespace VContainerSandbox
             builder.Register<IHealthPoint, HealthPoint>(Lifetime.Scoped).WithParameter<int>(100);
             builder.RegisterComponentInHierarchy<HealthPointView>();
             // どこからも生成されないので、エントリーポイントとする
-            builder.RegisterEntryPoint<HPPresenter>(Lifetime.Scoped);
+            builder.RegisterEntryPoint<HealthPointPresenter>(Lifetime.Scoped);
         }
     }
 }

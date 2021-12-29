@@ -8,13 +8,13 @@ using UniRx.Triggers;
 
 namespace VContainerSandbox
 {
-    public class HPPresenter : IPostInitializable
+    public class HealthPointPresenter : IPostInitializable
     {
         private readonly IHealthPoint _healthPoint;
         private readonly HealthPointView _healthPointView;
 
 
-        public HPPresenter(IHealthPoint healthPoint, HealthPointView healthPointView)
+        public HealthPointPresenter(IHealthPoint healthPoint, HealthPointView healthPointView)
         {
             Debug.Log("Init");
             _healthPoint = healthPoint;
